@@ -1,0 +1,48 @@
+
+.container {
+	display: flex; 
+	flex: 1;
+	border:none; 
+	margin: 25px; 
+	height: 50%;
+}
+
+section {
+	flex:1; 
+	border:1px solid black; 
+	height:200px; 
+	border:none;
+}
+
+.header {
+	display: flex; 
+	background: red; 
+	width: 100%; 
+	margin: auto;
+	height: 120px;
+}
+
+.bottom {
+	margin: 25px;
+	position: relative;
+	bottom: 30px;
+}
+
+.box1 {
+	background:#FFFD38;
+}
+
+.box2 {
+	background:#0B24FD;
+}
+
+.box3 {
+	background:#FEC0CD;
+}
+
+@media screen and (max-width: 400px) {
+	.container {
+		flex-direction: column;
+	}
+
+}
